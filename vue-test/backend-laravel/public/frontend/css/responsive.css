@@ -1,0 +1,942 @@
+@media only screen and (max-width: 768px) {
+    .onup_project .owl-prev {
+        margin-right: 70px !important;
+    }
+}
+@media only screen and (max-width: 600px) {
+    html,
+    body {
+        width: 100%;
+        height: 100% !important;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    .banner-title {
+        padding-left: 0;
+        padding-top: 73%;
+        padding-bottom: 10%;
+        margin-left: 0;
+    }
+
+    .banner-title p {
+        font-size: 27px;
+    }
+
+    .owl-theme .owl-dots {
+        left: 139px;
+    }
+    .title2-style {
+        margin-top: -165px;
+    }
+    .title2-style h1 {
+        font-size: 25px;
+    }
+    .title-style {
+        font-size: 16px;
+        /* margin-top: -30px; */
+        font-size: 16px;
+        /* padding-top: 35px; */
+    }
+    .custom-btn {
+        width: 215px;
+        height: 47px;
+        margin-top: 0;
+    }
+    .owl-theme .owl-dots .owl-dot span {
+        padding: 8px;
+    }
+    .owl-theme .owl-dots .owl-dot.active span {
+        width: 2px;
+    }
+    .title2-style h1 {
+        padding-bottom: 0;
+    }
+    .pad-dream {
+        padding-top: 0 !important;
+        /* padding-bottom: 30px; */
+        padding-left: 45px;
+    }
+    /* Style the dots */
+    /* Style the custom dots */
+    .slider-css .custom-dots {
+        display: flex;
+        justify-content: center;
+        /* margin-top: 20px; Adjust the margin from the carousel */
+        padding-bottom: 40px;
+    }
+
+    .slider-css .custom-dots .owl-dot {
+        background: #ccc; /* Background color of inactive dots */
+        border-radius: 50%; /* Make the dots round */
+        display: inline-block;
+        margin: 0 5px; /* Adjust the spacing between dots */
+        height: 10px; /* Adjust the height of the dots */
+        width: 10px; /* Adjust the width of the dots */
+    }
+
+    .slider-css .custom-dots .owl-dot.active {
+        background: #333; /* Background color of the active dot */
+    }
+    .slider-css .custom-dots {
+        margin-top: 0;
+    }
+    .owl-theme .owl-nav {
+        margin-top: -28px;
+    }
+    .why-head {
+        font-size: 25px;
+    }
+    .why-description {
+        font-size: 13px;
+        padding-bottom: 31px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .why-card {
+        margin-bottom: 18px;
+    }
+    .section-padding {
+        padding-bottom: 25px;
+    }
+    .custom-ourService {
+        width: auto;
+        height: 95%;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 0;
+        padding-bottom: 10px;
+    }
+    .card-flip .back {
+        width: auto;
+    }
+    .card-flip .back {
+        display: flex;
+        /* padding: 25px; */
+        flex-direction: column;
+        align-items: center;
+        gap: 21px;
+        flex-shrink: 0;
+        transform: rotateY(-180deg);
+        padding-bottom: 0;
+        padding-left: 16px;
+        padding-right: 12px;
+        font-size: 14px;
+        padding-top: 11px;
+        /* padding-bottom: 13px; */
+        text-align: justify;
+    }
+    .card-flip div {
+        backface-visibility: hidden;
+        transform-style: preserve-3d;
+        height: 100% !important;
+        width: 100%;
+        border: none;
+        height: auto !important;
+        padding-bottom: 42px;
+        padding-top: 42px;
+    }
+    .contact-padding {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 117px;
+        padding-bottom: 27px;
+    }
+
+    .subscribe-main {
+        padding: 0;
+    }
+    .subscribe-title {
+        padding-top: 30px;
+        font-size: 23px;
+    }
+    .subscribe-description {
+        font-size: 19px;
+    }
+
+    .copy-right {
+        padding-top: 27px;
+        font-size: 12px;
+    }
+    .footer-gap {
+        gap: 9px;
+    }
+    .content-wrap {
+        padding: 38px 0;
+    }
+
+    .property-details-banner {
+        font-size: 38px;
+        padding-top: 259px;
+    }
+    .about_us_navbar {
+        display: none;
+    }
+    .property-description {
+        padding-top: 6px;
+        font-size: 11px;
+    }
+    .section-padding {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .property-image {
+        height: 322px;
+        width: 100%;
+        /* padding-bottom: 20px; */
+    }
+    /* .property-background {
+        height: 100% !important;
+        padding-bottom: 0;
+    } */
+    .feature-card-design {
+        justify-content: center;
+    }
+    .mobile-feature-title {
+        padding-bottom: 45px !important;
+    }
+
+    .package-header {
+        top: 15%;
+    }
+    .contact-title {
+        font-size: 29px;
+    }
+    .all-properties-title {
+        font-size: 22px;
+        letter-spacing: 2px;
+        margin-left: -80px;
+        padding-top: 65px;
+        bottom: 112px;
+    }
+    .about-title {
+        font-size: 52px;
+    }
+    .about-padding {
+        padding-top: 50;
+        padding-bottom: 0;
+    }
+    .second-background {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        background: #e2ebe4;
+        padding-bottom: 10px;
+    }
+    .dream-title {
+        padding-top: 25px;
+        margin-top: 16px;
+    }
+
+    .section-heading {
+        padding-top: 20px;
+    }
+    .about-description {
+        padding-bottom: 20px;
+        font-size: 16px;
+    }
+    .about-section-padding {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 0;
+    }
+    .card-image-style {
+        position: relative;
+        top: 26px;
+    }
+    .overlay-package-head {
+        top: 35%;
+    }
+    .my_banner .owl-item img {
+        margin-top: 83px;
+    }
+    .card-height {
+        height: 656px;
+    }
+    .packages-btn {
+        left: 88px;
+    }
+    .about-title2 {
+        font-size: 30px;
+    }
+    .vision-section {
+        padding-top: 0;
+    }
+    .values-section {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .mission-image1 {
+        padding-top: 23px;
+        padding-left: 32px;
+    }
+    .mission2 {
+        position: absolute;
+        top: 40px;
+        left: 19px;
+    }
+    .mission-image2 {
+        padding-top: 51px;
+        margin-left: 39px;
+    }
+    .vision2 {
+        position: absolute;
+        left: 27px;
+        /* top: 125px; */
+        bottom: 579px;
+    }
+    .mission-image3 {
+        /* padding-left: 305px; */
+        position: relative;
+        top: 51px !important;
+        right: 264px;
+    }
+    .values2 {
+        position: relative;
+        bottom: 276px;
+        left: -27px;
+    }
+    .mission-grass {
+        top: -46px;
+    }
+    .mission-grass2 {
+        top: -48px;
+    }
+    .container-pad {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .career_card {
+        width: 100%;
+        border-radius: 5px !important;
+        margin-left: 0;
+    }
+    .features-body-design {
+        position: relative;
+        bottom: 253px;
+    }
+    .feature-icon {
+        margin-top: 0;
+    }
+    .feature-padding {
+        padding-bottom: 0;
+        margin-bottom: -110px;
+    }
+    img.career_details_img {
+        width: 100%;
+        height: 100%;
+    }
+    .banner {
+        /* height: 50%; */
+    }
+    .video-text {
+        font-size: 18px;
+
+        position: relative;
+        bottom: 66px;
+    }
+    .dream-pad {
+        padding-top: 60px;
+    }
+    .thumbnail-container {
+        /* padding-bottom: 35px; */
+        padding-top: 17px;
+    }
+    .service-card-image {
+        padding-top: 0 !important;
+    }
+    .our-story-img {
+        margin-top: -71px;
+        padding-top: 35px;
+    }
+    .colon-about {
+        display: none;
+    }
+    .about-description p {
+        padding-left: 0;
+    }
+    .board-background {
+        /* margin-top: -24px; */
+    }
+    .specification-img-border {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .pdetails-thumb {
+        width: 35% !important;
+    }
+    .video-icon {
+        position: absolute;
+        top: 42%;
+        left: 62%;
+        transform: translate(-50%, -50%);
+    }
+    .inquery-margin {
+        margin-top: 50px;
+    }
+    .services-description {
+        padding-top: 20px;
+        font-size: 18px;
+        font-weight: 300;
+    }
+    .step-text {
+        font-size: 8px;
+        padding-top: 15px;
+        position: relative;
+        z-index: 9;
+    }
+    .form-group-services input {
+        padding-left: 0;
+    }
+    .form-control-services {
+        padding-left: 0;
+    }
+    .property-title {
+        font-size: 28px;
+        color: var(--colour-black-colour, #272727);
+        text-align: center;
+        padding-top: 34px;
+        padding-bottom: 20px !important;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 126.5%;
+        text-transform: uppercase;
+    }
+    .property-contact {
+        padding-bottom: 46px;
+    }
+    .pad-bottom-dream {
+        padding-bottom: 35px;
+    }
+    .border-radius-thumb {
+        border-radius: 10px;
+    }
+    .plus-background {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .important-description {
+        color: var(--colour-black-colour, #272727);
+        font-family: Inter;
+        font-size: 18px;
+        text-align: justify;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 122%;
+        text-transform: capitalize;
+        margin-top: -202px;
+    }
+    .row-section {
+        padding-bottom: 0;
+    }
+    .services4-background {
+        padding: 60px 20px;
+        /* padding-top: 60px; */
+        /* padding-bottom: 60px; */
+    }
+    .custom-select.custom-input {
+        font-size: 14px;
+    }
+    .form-control.custom-input {
+        font-size: 14px;
+    }
+    .contact-body {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .mission-background {
+        padding-top: 0;
+        margin-bottom: 0;
+    }
+    .mobile_view_mission {
+        display: none;
+    }
+    .mobile_pad_mission {
+        padding-bottom: 30px;
+    }
+    .icon-bar a {
+        display: block;
+        text-align: center;
+        padding: 7px 10px;
+        transition: all 0.3s ease;
+        color: white;
+        font-size: 10px;
+        border-radius: 50%;
+        margin-bottom: 8px;
+    }
+    /* div#navbarNavDropdown {
+        background: rgba(0, 0, 0, 0.5) !important;
+    } */
+    .bradcamp_image {
+        /* height: 400px !important; */
+        margin-top: 82px;
+    }
+    .background-im {
+        bottom: -16px;
+    }
+    .quote_grass {
+        bottom: -3px;
+    }
+
+    .get-quote-body {
+        margin-top: -11px;
+    }
+    .mobile-nav {
+        background: #8bc441 url(your_background_image_url_here) !important;
+    }
+    .owl-theme .owl-nav {
+        display: none;
+    }
+    .makeitcurrent + .make_border {
+        display: none;
+    }
+    .margin_custom_slide {
+        margin-top: 0 !important;
+    }
+    .makeitcurrent {
+        transition: none;
+        transform: none;
+        height: 400px !important;
+    }
+    .mobile_dream_leaf {
+        display: none;
+    }
+    .services__title {
+        position: relative;
+        z-index: 9;
+    }
+    .give_padding img {
+        width: 60px !important;
+    }
+    .completed_back {
+        padding-top: 65px;
+    }
+    .header-1 .navbar-main .active > .nav-link {
+        border-bottom: none;
+    }
+    .our-service-button {
+        margin-left: 0;
+    }
+    .property-video {
+        padding-top: 0;
+    }
+    .zoom-image img {
+        width: 100%;
+    }
+    .image-width {
+        width: 89%;
+        padding-left: 43px;
+    }
+    .margin__grass {
+        bottom: 18px;
+    }
+    .set__margin {
+        top: -16px;
+    }
+    .set_top {
+        top: -131px;
+    }
+    .ongoing_project_background {
+        padding-top: 0;
+    }
+    .upcomming_projects_background {
+        padding-top: 0;
+    }
+    .all-projects-padding {
+        padding-bottom: 20px;
+    }
+    .set_image_height {
+        height: 400px !important;
+    }
+    /* .icon-bar {
+        display: none;
+    } */
+    .section__margin2 {
+        margin-top: -106px !important;
+    }
+    .section__margin {
+        margin-top: -70px !important;
+    }
+    .header-1 .navbar-main .nav-link {
+        color: #0a5d00 !important;
+    }
+    .quote_button_again {
+        color: #0a5d00;
+        font-weight: 400;
+    }
+    .location_info {
+        padding-left: 31px !important;
+        padding-top: 52px;
+    }
+    .leaf_paddddd {
+        padding-top: 0;
+    }
+    #leafContainerwork {
+        margin-top: -175px;
+    }
+    #leafContainer {
+        margin-top: -255px;
+        margin-left: 185px;
+    }
+    .set_mar_mobile {
+        margin-left: 0;
+    }
+    .dream_leaf_margin {
+        margin-left: 0;
+        position: relative;
+        left: 38%;
+        top: -19%;
+    }
+    .mobile_video_margin {
+        margin-top: -55px;
+    }
+    .banner_tags {
+        display: flex;
+    }
+    .my-btn-banner {
+        padding: 9px 5px !important;
+        font-size: 9px;
+    }
+    .leafImageworkmobile {
+        /* margin-left: 212px; */
+        position: relative;
+        left: 63%;
+        /* bottom: 9%; */
+        /* top: -15%; */
+        top: -52px;
+    }
+    .name {
+        position: relative;
+        z-index: 9999 !important;
+    }
+    .mission-title {
+        padding-top: 0;
+    }
+    .make_all_title {
+        font-size: 22px;
+    }
+    .miss_pad {
+        font-size: 18px;
+    }
+    .card-description-service {
+        padding: 14px;
+    }
+    .bb_background {
+        padding-bottom: 0;
+        margin-top: 35px;
+    }
+    .dream_margin_left {
+        margin-left: 0 !important;
+    }
+    .last_revision_title {
+        margin-top: 15px;
+        padding-bottom: 0 !important;
+    }
+    .mobile_step {
+        position: relative;
+        top: -20px;
+    }
+    .work_process_pad {
+        padding-bottom: 0;
+    }
+    .mobile_service_center {
+        text-align: center;
+    }
+    .mobile__service_pad {
+        padding-bottom: 0;
+    }
+    .blog_details_bradcampText {
+        font-size: 16px;
+    }
+    .blog_title {
+        font-size: 17px;
+    }
+    .blog_details_description {
+        font-size: 15px;
+    }
+    .footer_logo_text {
+        font-size: 21px;
+    }
+    .footer__title {
+        padding-left: 32px;
+    }
+    .work_leaf {
+        position: relative;
+        right: 0;
+        /* padding-right: 28px; */
+    }
+    .work_leaf2 {
+        /* padding-left: 45px; */
+        position: relative;
+        left: 0;
+    }
+    .pad_left_12 {
+        padding-left: 12px;
+    }
+    .packages-detail-btn {
+        position: absolute;
+        top: 81%;
+        left: 25%;
+    }
+    .package_details_des {
+        padding-bottom: 15px;
+    }
+    .mobile_garden {
+        font-size: 12px;
+    }
+    .your-button-class button {
+        padding: 8px;
+    }
+    .circle-title {
+        text-align: center;
+    }
+    .circle-title h4 {
+        padding: 0;
+        text-align: center;
+    }
+    .owl-carousel .owl-item img {
+        /* margin-top: 83px; */
+    }
+    .banner-background-im {
+        margin-top: -351px;
+    }
+    .package-header-details {
+        top: 13.5%;
+    }
+    .pad_top_table {
+        padding-top: 0;
+    }
+
+    .blog-details-section {
+        margin-top: -100px;
+    }
+    .career_details_page {
+        margin-top: -100px;
+    }
+    .step_of_work_process_body {
+        margin-top: -252px;
+        position: relative;
+        top: 18px;
+    }
+    .my_circle {
+        width: 100%; /* Set full width for smaller screens */
+    }
+    .my_container {
+        display: grid;
+    }
+}
+@media (min-width: 400px) and (max-width: 416px) {
+    .title2-style {
+        margin-top: -74px !important;
+    }
+    .title-style {
+        padding-top: 0px;
+        margin-top: -43px;
+    }
+    .title-style.title-style-xr {
+        padding-top: 70px;
+    }
+    .title2-style.title2-style-xr {
+        margin-top: -165px !important;
+    }
+    .owl-carousel .owl-item img {
+        margin-top: 83px;
+    }
+}
+/* responsive for iPhone XR */
+/* @media (max-width: 400px) {
+    .packages-btn {
+        left: 104px;
+    }
+} */
+/* responsive for iPhone XR */
+
+/* @media (max-width: 400px) {
+    .banner-title {
+        padding-left: 0;
+        padding-top: 50px;
+    }
+} */
+@media (min-width: 770px) and (max-width: 1460px) {
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    .custom-nav {
+        top: 1%;
+    }
+    .banner .custom-nav .owl-next,
+    .banner .custom-nav .owl-prev {
+        top: 379px;
+    }
+    .about_us_navbar {
+        margin-top: 824px;
+    }
+    .video-text {
+        bottom: 257px;
+    }
+    .our-story-img {
+        height: 100%;
+        width: 100%;
+        margin-top: -57px;
+        /* padding-top: 60px; */
+    }
+    .plus-background {
+        left: 124px;
+        top: 182px;
+    }
+    .btn_style_arrow .owl-next {
+        right: 44%;
+    }
+    .feature-card-design {
+        padding-bottom: 60px;
+    }
+    .quote_grass {
+        position: relative;
+        bottom: 12px;
+    }
+    .custom-ourService {
+        min-height: 376px;
+    }
+    .card-flip .back {
+        padding: 0;
+        padding-left: 27px;
+    }
+    #scroll-trigger img {
+        left: -60px;
+    }
+    .our-service-button {
+        margin-left: 0;
+    }
+    .why-card-description {
+        font-size: 12px;
+    }
+    .background-im {
+        bottom: 24px;
+    }
+    .set_image_height {
+        height: 400px;
+    }
+    .makeitcurrent {
+        height: 500px !important;
+    }
+    .title-style {
+        /* padding-top: 40px; */
+    }
+    .dream-title {
+        font-size: 28px;
+    }
+    .dream-description {
+        font-size: 17px;
+    }
+    .dream-description2 {
+        font-size: 24px;
+    }
+    .add-description {
+        font-size: 15px;
+    }
+    .custom-card-service {
+        min-height: 369px;
+    }
+    .card-description-service {
+        padding: 15px;
+        font-size: 14.5px;
+    }
+
+    .card-description-service:hover {
+        font-size: 14.5px;
+    }
+    .service_card_pad {
+        padding-top: 40px;
+    }
+
+    .all-properties-title {
+        left: 46%;
+        bottom: 298px;
+    }
+    .set_left {
+        left: 50%;
+    }
+    .vision_leaf {
+        position: absolute;
+        top: 22%;
+        left: 70%;
+    }
+    .footer_logo_text {
+        font-size: 37px;
+    }
+    .copy-right {
+        font-size: 14px;
+    }
+    .banner-title {
+        top: -239px;
+    }
+    .banner-title p {
+        font-size: 86px;
+    }
+    .location_info {
+        padding-left: 30px !important;
+        padding-top: 32px;
+    }
+    .banner-background-im {
+        width: 100%;
+        position: relative;
+        /* bottom: 252px; */
+        height: 18px;
+        margin-top: -189px;
+        padding-bottom: 48px;
+        z-index: 999;
+    }
+    .pad_top_table {
+        padding-top: 100px;
+    }
+    .overlay-package-head-details {
+        position: absolute;
+        top: 27%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+
+        color: black;
+        font-size: 16px;
+    }
+    .package-header-details {
+        top: 10.5%;
+    }
+    .package-description-details {
+        font-size: 17px;
+    }
+    .package_btn_details {
+        padding: 7px;
+    }
+    .package__details__btn_details {
+        left: 14px;
+        right: 4%;
+    }
+    .step_of_work_process_body {
+        top: -286px;
+    }
+    .laptop_package {
+        left: 14%;
+    }
+}
+/* @media (min-width: 768px) and (max-width: 1460px) {
+    .banner-title {
+        padding-left: 118px;
+    }
+    .banner-title p {
+        font-size: 126px;
+    }
+} */
