@@ -72,7 +72,33 @@ body {
     padding: 25px;
   }
   .all_btn {
-    background: #487eb0;
+    background: #1f8593;
     border: none;
+  }
+  .title {
+    font-size: 42px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+  }
+
+  .title::after {
+    content: "";
+    display: inline-block;
+    width: 50%;
+    height: 2px;
+    background-color: #1f8593;
+    position: absolute;
+    bottom: -5px;
+    left: 25%;
+  }
+  .text-title {
+    font-size: 24px;
+    text-transform: uppercase;
+    background: #1f8593;
+    color: #fff;
+    /* padding-top: 10px; */
+    padding: 11px;
   }
 }

@@ -3,6 +3,9 @@
 import TheWelcome from '../components/TheWelcome.vue';
 import bannerImg from '../assets/img/banner.jpg';
 import Services from './Services.vue';
+import Skills from './Skills.vue';
+import Projects from './Projects.vue';
+import Footer from './Footer.vue';
 </script>
 
 <template>
@@ -12,6 +15,15 @@ import Services from './Services.vue';
     </div>
     <section> <!-- Opening section tag added here -->
       <Services />
+    </section>
+    <section>
+      <Skills/>
+    </section>
+    <section>
+      <Projects/>
+    </section>
+    <section>
+      <Footer/>
     </section>
   </div>
 </template>
