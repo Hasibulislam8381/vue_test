@@ -1,7 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
-
+import Footer from "./components/Footer.vue";
 import imageSrc from './assets/img/6YXk7lXbPClp7zkCwEhXkZMbz9W8i2fKO0PkF2Kx.png';
 import bannerImg from './assets/img/banner.jpg';
 </script>
@@ -25,20 +25,16 @@ import bannerImg from './assets/img/banner.jpg';
         <li class="nav-item">
           <router-link  class="nav-link" to="/about">About</router-link>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
+        <li class="nav-item">
+          <router-link  class="nav-link" to="/projects">Projects</router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <router-link  class="nav-link" to="/skills">Skills</router-link>
         </li>
+        <li class="nav-item">
+          <router-link  class="nav-link" to="/contact">Contact</router-link>
+        </li>
+      
       </ul>
       <!-- <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -53,6 +49,7 @@ import bannerImg from './assets/img/banner.jpg';
   </header>
 
   <RouterView />
+  <Footer/>
 </template>
 
 <style scoped>

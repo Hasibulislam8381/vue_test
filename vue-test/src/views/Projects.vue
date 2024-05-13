@@ -1,5 +1,9 @@
 
+<script setup>
+import Footer from './Footer.vue';
+</script>
 <template>
+    <section>
     <div class="container">
         <div class="row">
         <div class="col-md-12">
@@ -36,13 +40,14 @@
       </div>
     </div>
     </div>
-   
+</section>
+
 </template>
 <style setup>
 .projects a{
     font-size: 22px;
     /* font-weight: bold; */
-    color: #333;
+    color: #fff;
     text-decoration: none;
     /* border-bottom: 2px solid #333; */
     transition: 0.3s ease-in-out;

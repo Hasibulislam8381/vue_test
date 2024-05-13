@@ -1,8 +1,10 @@
 
-<script>
+<script setup>
+import Footer from './Footer.vue';
 </script>
 <template>
-    <div class="container">
+    <section>
+    <div class="container " >
         <div class="row">
             <div class="col-md-12">
                 <div class="title">
@@ -50,7 +52,8 @@
             </div>
         </div>
     </div>
-   
+</section>
+
 </template>
 
 <style setup>

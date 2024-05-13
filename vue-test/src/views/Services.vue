@@ -28,11 +28,17 @@ const removeHtmlTags = (text) => {
 </script>
 
 <template>
+  <section>
     <div class="container">
   <div class="row">
+    <div class="col-md-12">
+                <div class="title">
+                Services
+                </div>
+            </div>
 
 
-   <div v-for="service in services" :key="service.id"  class="col-md-4">
+   <div v-for="service in services" :key="service.id"  class="col-md-4 pt-3">
     <div class="services">
   <div class="card service_card">
     <div class="services-img text-center">
@@ -57,4 +63,5 @@ const removeHtmlTags = (text) => {
  
   </div>
 </div>
+</section>
 </template>
